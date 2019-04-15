@@ -1,0 +1,30 @@
+{
+    "name": "brumann/phpstan-rules",
+    "description": "Custom rules for phpstan",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Brumann",
+            "email": "denis.brumann@sensiolabs.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Brumann\\PHPStan\\Rules\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brumann\\PHPStan\\Rules\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "phpstan/phpstan": "^0.11.5",
+        "nikic/php-parser": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
