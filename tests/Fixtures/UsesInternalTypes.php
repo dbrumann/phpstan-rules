@@ -6,8 +6,8 @@ class UsesInternalTypes
 {
     private $data;
 
-    public function __construct(int $myInt, bool $myBool, string $myString, array $myArray, object $myObject)
+    public function __construct(int $myInt, bool $myBool, string $myString, array $myArray)
     {
-        $this->data = [$myInt, $myBool, $myString, $myArray, $myObject];
+        $this->data = [$myInt, $myBool, $myString, $myArray];
     }
 }
