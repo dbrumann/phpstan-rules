@@ -2,6 +2,6 @@
 
 namespace Brumann\PHPStan\Rules\Tests\Dummy;
 
-interface MyInterface
+class Bar
 {
 }

@@ -2,6 +2,6 @@
 
 namespace Brumann\PHPStan\Rules\Tests\Dummy;
 
-class MyConcreteImplementation implements MyInterface
+interface BazInterfaface
 {
 }

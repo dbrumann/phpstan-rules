@@ -1,0 +1,12 @@
+rules:
+    - Brumann\PHPStan\Rules\ConstructorPreferInterface
+
+parameters:
+    excludedInterfaces: []
+
+services:
+    -
+        class: Brumann\PHPStan\Rules\ConstructorPreferInterface
+        arguments: '%excludedInterfaces%'
+        tags:
+            - phpstan.rules.rule

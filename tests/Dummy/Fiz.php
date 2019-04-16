@@ -2,6 +2,6 @@
 
 namespace Brumann\PHPStan\Rules\Tests\Dummy;
 
-class MyConcrete
+class Fiz implements FizInterface
 {
 }

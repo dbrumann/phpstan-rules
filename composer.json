@@ -21,10 +21,14 @@
     },
     "require": {
         "php": "^7.1",
-        "phpstan/phpstan": "^0.11.5",
-        "nikic/php-parser": "^4.2"
+        "phpstan/phpstan": "^0.11.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }

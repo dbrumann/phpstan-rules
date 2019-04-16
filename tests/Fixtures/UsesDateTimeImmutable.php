@@ -4,7 +4,7 @@ namespace Brumann\PHPStan\Rules\Tests\Fixtures;
 
 use DateTimeImmutable;
 
-class ExampleWithDateTime
+class UsesDateTimeImmutable
 {
     private $dateTime;
 

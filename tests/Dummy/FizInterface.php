@@ -2,6 +2,6 @@
 
 namespace Brumann\PHPStan\Rules\Tests\Dummy;
 
-class MyParentImplementation extends MyConcreteImplementation
+interface FizInterface
 {
 }
